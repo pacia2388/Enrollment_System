@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Enrollment_System_of_SAA.Forms;
+using System;
 using System.Windows.Forms;
 
 namespace Enrollment_System_of_SAA
@@ -16,7 +14,7 @@ namespace Enrollment_System_of_SAA
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Home());
         }
     }
 }

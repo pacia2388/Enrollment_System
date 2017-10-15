@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_Schedules" targetNamespace="http://tempuri.org/DS_Schedules.xsd" xmlns:mstns="http://tempuri.org/DS_Schedules.xsd" xmlns="http://tempuri.org/DS_Schedules.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SAADBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SAADBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Enrollment_System_of_SAA.Properties.Settings.GlobalReference.Default.SAADBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_Schedules" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS_Schedules" msprop:Generator_UserDSName="DS_Schedules">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Schedules" msprop:Generator_TableClassName="SchedulesDataTable" msprop:Generator_TableVarName="tableSchedules" msprop:Generator_TablePropName="Schedules" msprop:Generator_RowDeletingName="SchedulesRowDeleting" msprop:Generator_RowChangingName="SchedulesRowChanging" msprop:Generator_RowEvHandlerName="SchedulesRowChangeEventHandler" msprop:Generator_RowDeletedName="SchedulesRowDeleted" msprop:Generator_UserTableName="Schedules" msprop:Generator_RowChangedName="SchedulesRowChanged" msprop:Generator_RowEvArgName="SchedulesRowChangeEvent" msprop:Generator_RowClassName="SchedulesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SUBJECT" msprop:Generator_ColumnVarNameInTable="columnSUBJECT" msprop:Generator_ColumnPropNameInRow="SUBJECT" msprop:Generator_ColumnPropNameInTable="SUBJECTColumn" msprop:Generator_UserColumnName="SUBJECT" type="xs:string" minOccurs="0" />
+              <xs:element name="START" msprop:Generator_ColumnVarNameInTable="columnSTART" msprop:Generator_ColumnPropNameInRow="START" msprop:Generator_ColumnPropNameInTable="STARTColumn" msprop:Generator_UserColumnName="START" type="xs:string" minOccurs="0" />
+              <xs:element name="END" msprop:Generator_ColumnVarNameInTable="columnEND" msprop:Generator_ColumnPropNameInRow="END" msprop:Generator_ColumnPropNameInTable="ENDColumn" msprop:Generator_UserColumnName="END" type="xs:string" minOccurs="0" />
+              <xs:element name="DAY" msprop:Generator_ColumnVarNameInTable="columnDAY" msprop:Generator_ColumnPropNameInRow="DAY" msprop:Generator_ColumnPropNameInTable="DAYColumn" msprop:Generator_UserColumnName="DAY" type="xs:string" minOccurs="0" />
+              <xs:element name="ROOM" msprop:Generator_ColumnVarNameInTable="columnROOM" msprop:Generator_ColumnPropNameInRow="ROOM" msprop:Generator_ColumnPropNameInTable="ROOMColumn" msprop:Generator_UserColumnName="ROOM" type="xs:string" minOccurs="0" />
+              <xs:element name="INSTRUCTOR" msprop:Generator_ColumnVarNameInTable="columnINSTRUCTOR" msprop:Generator_ColumnPropNameInRow="INSTRUCTOR" msprop:Generator_ColumnPropNameInTable="INSTRUCTORColumn" msprop:Generator_UserColumnName="INSTRUCTOR" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
